@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Competition Application</title>
+  <style>
+    body {
+        background: linear-gradient( #0c051b,#3e1570,#880e4f,#1d0735,#0c051b);
+            color: hwb(0 100% 0%);
+            font-family: Arial, sans-serif;
+           
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      overflow: hidden;
+    }
+
+    .container {
+      width: 60%;
+      max-width: 600px;
+      margin: 20px auto;
+      background: linear-gradient(45deg, #512686, #1d0735);
+      border-radius: 30px;
+      box-shadow: 0 0 20px hsla(209, 49%, 50%, 0.2);
+      color: rgb(255,255,255);
+      padding: 15px;
+      position: relative;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin: 5px 0;
+    }
+
+    input {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #fff;
+      color: #4a148c;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #880e4f;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Competition Application </h1>
+    <form>
+      <label for="LEADER NAME">LEADER NAME:</label>
+      <input type="text" id="LEADER NAME" name="LEADER NAME" required>
+      <label for="1ST MEMBER NAME">1ST MEMBER NAME:</label>
+      <input type="text" id="1ST MEMBER NAME" name="1ST MEMBER NAME" required>
+      <label for="2ND MEMBER NAME">2ND MEMBER NAME</label>
+      <input type="text" id="2ND MEMBER NAME" name="2ND MEMBER NAME" required>
+      <label for="3RD MEMBER NAME">3RD MEMBER NAME</label>
+      <input type="text" id="3RD MEMBER NAME" name="3RD MEMBER NAME" required>
+      <label for="SEMESTER">SEMESTER:</label>
+      <input type="SEMESTER" id="SEMESTER" name="SEMESTER" required>
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+</body>
+</html>

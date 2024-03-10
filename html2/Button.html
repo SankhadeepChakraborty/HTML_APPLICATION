@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registration Form</title>
+    <style>
+        body {
+            background: linear-gradient( #280d47,#880e4f,#21aa88,#1d0735,#0c051b);
+            background-color: hsl(0, 0%, 20%);
+            color: hwb(0 100% 0%);
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: linear-gradient( #0c051b,#3e1570,#880e4f,#1d0735,#0c051b);
+            text-shadow: #3e1570;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+            text-align: center;
+        }
+
+        .container p {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 25px;
+            margin-bottom: 10px;
+            background-color: #4CAF50;
+            color: hsl(0, 0%, 100%);
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p><u>APPLICATION FOR TECHFEST</u>.</p>
+
+        <button class="button" onclick="redirecttoanotherfile()">QUIZ COMPETITION</button> <br>
+        <button class="button" onclick="redirecttoanotherfile1()">CODEING COMPETITION</button><br>
+        <button class="button" onclick="redirecttoanotherfile2()">PRESENTATION</button><br>
+
+        <script>
+            function redirecttoanotherfile() {
+                window.location.href = 'Quiz.html';
+            }
+
+            function redirecttoanotherfile1() {
+                window.location.href = 'Codeing.html';
+            }
+        </script>
+    </div>
+</body>
+
+</html>
